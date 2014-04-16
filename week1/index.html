@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Frameworks - Week 1</title>
+		<link rel="stylesheet" href="foundation-5.2.2/css/normalize.css">
+		<link rel="stylesheet" href="foundation-5.2.2/css/foundation.css">
+		<link rel="stylesheet" href="foundation-5.2.2/css/foundation-icons.css">
+		<link rel="stylesheet" href="media/css/main.css">
+		<script src="foundation-5.2.2/js/vendor/jquery.js"></script>
+		<script src="foundation-5.2.2/js/vendor/modernizr.js"></script>
+		<script src="foundation-5.2.2/js/foundation/foundation.js"></script>
+		<script src="foundation-5.2.2/js/foundation/foundation.topbar.js"></script>	
+		<script src="foundation-5.2.2/js/foundation/foundation.orbit.js"></script>	
+		<script src="foundation-5.2.2/js/foundation/foundation.tab.js"></script>	
+	</head>
+	<body>
+		<div class="row" id="header">
+			<div class="columns small-2 left" id="logo">
+				<img src="media/img/logo.png">
+			</div>
+			<div class="columns small-10 left" id="nav">
+				<nav class="top-bar">
+					<ul class="title-area">
+						<li class="name"></li>
+					</ul>
+					<section class="top-bar-section">
+						<ul class="left">
+							<li class="left">
+								<a href="">Home</a>
+							</li>
+							<li class="left divider"></li>
+							<li class="left">
+								<a href="">Features</a>
+							</li>
+							<li class="left divider"></li>
+							<li class="left">
+								<a href="">About</a>
+							</li>
+						</ul>
+					</section>
+				</nav>
+			</div>
+		</div>
+
+<!-- 		<div class="row">
+			<div class="columns small-10">
+				<div class="orbit-container" id="section1">
+					<ul data-orbit class="" id="slideshow">
+						<li data-orbit-slide="slide-1" class="active">
+							<img src="media/img/kit1.jpg" alt="alide 1">
+							<div class="orbit-caption">
+								<h2>Call to Action Headline</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, minima, ut, vel, illum omnis eligendi atque recusandae mollitia expedita delectus amet voluptatem.</p>
+								<a href="#" class="button radius slideBtn">Get It!</a>
+							</div>
+						</li>
+						<li data-orbit-slide="slide-2">
+							<img src="media/img/kit2.jpg" alt="slide 2">
+							<div class="orbit-caption">
+								<h2>Call to Action Headline</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dolores, sit, accusantium, nisi ipsa quo quod quidem assumenda aspernatur et odio placeat.</p>
+								<a href="#" class="button radius slideBtn">Get It!</a>
+							</div>
+						</li>
+						<li data-orbit-slide="slide-3">
+							<img src="media/img/kit3.jpg" alt="slide 3">
+							<div class="orbit-caption">
+								<h2>Call to Action Headline</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur consectetur voluptate consequatur maiores ullam ipsam porro dolores rerum veniam beatae minus.</p>
+								<a href="#" class="button radius slideBtn">Get It!</a>
+							</div>
+						</li>
+						<li data-orbit-slide="slide-4">
+							<img src="media/img/kit4.jpg" alt="slide 4">
+							<div class="orbit-caption">
+								<h2>Call to Action Headline</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quas, dolorem, quos, illo fuga ea voluptates ad repellendus minima tempora distinctio inventore!</p>
+								<a href="#" class="button radius slideBtn">Get It!</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="columns small-2" id="slideThumbs">
+				<a href="#" data-orbit-link="slide-1" class="button small">
+					<img src="media/img/kit1.jpg" alt="thumb 1">
+				</a>
+				<a href="#" data-orbit-link="slide-2" class="button small">
+					<img src="media/img/kit2.jpg" alt="thumb 2">
+				</a>
+				<a href="#" data-orbit-link="slide-3" class="button small">
+					<img src="media/img/kit3.jpg" alt="thumb 3">
+				</a>
+				<a href="#" data-orbit-link="slide-4" class="button small">
+					<img src="media/img/kit4.jpg" alt="thumb 4">
+				</a>
+			</div>
+		</div> -->
+		<div class="row" id="section1">
+			<div class="columns small-10" id="slideImg">
+				<div id="slideImgText">
+					<div class="row">
+						<h2 class="columns small-6">Call to Action Headline</h2>
+						<div class="columns small-6"></div>
+					</div>
+					<div class="row">
+						<p class="columns small-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, dicta, eos, magni, iusto officiis fugit nemo doloribus natus pariatur vero atque ipsam!</p>
+						<div class="columns small-6"></div>
+					</div>
+					<div class="row">
+						<div class="columns small-3">
+							<a href="#" class="button radius expand" id="slideBtn">Get It!</a>
+						</div>
+						<div class="columns small-3"></div>
+						<div class="columns small-3"></div>
+						<div class="columns small-3"></div>
+					</div>
+				</div>
+			</div>
+			<div class="columns small-2" id="slideThumbs">
+				<ul>
+					<li>
+						<a href="#" class="button right alert">
+							<img src="media/img/heroImg.jpg" alt="#">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="button right">
+							<img src="media/img/kit1.jpg" alt="#">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="button right">
+							<img src="media/img/kit2.jpg" alt="#">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="button right">
+							<img src="media/img/kit3.jpg" alt="#">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row" id="section2">
+			<div class="columns small-12" id="tabs">
+				<dl class="tabs" data-tab>
+					<dd><a href="#tab1">Features</a></dd>
+					<dd><a href="#tab2">Capabilities</a></dd>	
+					<dd class="active"><a href="#tab3">Screenshots</a></dd>
+				</dl>
+				<div class="tabs-content">
+					<div class="content" id="tab1">
+						<ul>
+							<li class="left columns small-3">
+								<img src="media/img/kit3.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit6.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit8.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit5.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>						
+						</ul>
+					</div>
+					<div class="content" id="tab2">
+						<ul>
+							<li class="left columns small-3">
+								<img src="media/img/kit8.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit2.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit1.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit4.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>						
+						</ul>
+					</div>
+					<div class="content active" id="tab3">
+						<ul>
+							<li class="left columns small-3">
+								<img src="media/img/kit4.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit5.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit6.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+							<li class="left columns small-3">
+								<img src="media/img/kit7.jpg" alt="">
+								<br>
+								<p class="text-center">Feature Name</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="section3">
+			<ul class="columns small-6 inline-list small-offset-1">
+				<li><a href="#"><i class="iconStyle fi-social-twitter"></i></a></li>
+				<li><a href="#"><i class="iconStyle fi-social-facebook"></i></a></li>
+				<li><a href="#"><i class="iconStyle fi-social-pinterest"></i></a></li>
+				<li><a href="#"><i class="iconStyle fi-social-reddit"></i></a></li>
+			</ul>
+			<ul class="columns small-5 inline-list">
+				<li><a href="#"><i class="iconStyle fi-social-apple"></i></a></li>
+				<li><a href="#"><i class="iconStyle fi-social-android"></i></a></li>
+				<li><a href="#"><i class="iconStyle fi-social-windows"></i></a></li>
+				<li><a href="#"><i class="iconStyle fi-shopping-cart"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="row" id="footer">
+			<div class="columns small-10 left" id="nav">
+				<nav class="top-bar">
+					<ul class="title-area">
+						<li class="name"></li>
+					</ul>
+					<section class="top-bar-section">
+						<ul class="left">
+							<li class="left">
+								<a href="">Home</a>
+							</li>
+							<li class="left divider"></li>
+							<li class="left">
+								<a href="">Features</a>
+							</li>
+							<li class="left divider"></li>
+							<li class="left">
+								<a href="">About</a>
+							</li>
+							<li class="left divider"></li>
+							<li class="left">
+								<a href="">Privacy</a>
+							</li>
+							<li class="left divider"></li>
+							<li class="left">
+								<a href="">Disclaimer</a>
+							</li>
+						</ul>
+					</section>
+				</nav>
+			</div>		
+			<div class="columns small-2 left" id="logo">
+				<img src="media/img/logo.png">
+			</div>
+		</div>
+	</body>
+</html>
