@@ -1,3 +1,3 @@
 frameworks
 ==========
-Basic site mockup to learn Zurb's Foundation framework.
+Homework and Projects for my Frameworks class. Sorted by week for ease of use.
