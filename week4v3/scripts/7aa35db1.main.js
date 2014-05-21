@@ -1,0 +1,1 @@
+function init(){$("#tab-names a").click(function(a){a.preventDefault(),$(this).tab("show")})}console.log("'Allo 'Allo!"),window.load=init;
